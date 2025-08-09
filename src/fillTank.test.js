@@ -73,7 +73,7 @@ describe(`'fillTank' function`, () => {
       },
     };
 
-    fillTank(customer, 60, 25.6);
+    fillTank(customer, 60, 25.68);
 
     expect(customer).toEqual({
       money: 1464,
